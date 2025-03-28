@@ -270,11 +270,12 @@
     position: relative;
     /* background-color: aqua; */
     height: 100%;
-    width: 380px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .cards > h4 {
@@ -324,7 +325,7 @@
     /* height: 50px; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .icon_holders > i {
@@ -457,4 +458,33 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    /* NAVIGATION */
+    .head {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .head a {
+        display: none;
+        margin: 5px;
+    }
+
+    /* HERO SECTION */
+    .hero .message {
+        font-size: 1.2rem;
+    }
+
+    /* CARDS */
+    .three_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 90%;
+    }
 }
