@@ -193,110 +193,73 @@ footer {
     width: 100%;    
     height: 280px;
     background-color: black;
+    display: flex;
     /* margin-top: 100px; */
     color: #fff;
 }
 
-.footer_top {
-    width: 100%;
-    height: 50%;
-    display: flex;
-}
-
-.footer_nav {
-    width: 25%;
+.footer_left {
+    width: 50%;
     height: 100%;
-    border: 1px solid #232323;
+    font-family: "Poppins";
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.footer_title {
-    color: #292e27;
-}
-
-.footer_terms {
-    width: 100%;
-    height: 50%;
+.foot_address {
+    font-family: "Poppins";
+    /* background-color: gold; */
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
 }
 
-.group {
-    width: 25%;
+#location_icon {
+    size: 80px;
+}
+
+.foot_phone {
+    font-family: "Poppins";
+    /* background-color: gold; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_email {
+    font-family: "Poppins";
+    /* background-color: gold; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_right {
+    width: 50%;
     height: 100%;
+    font-family: "Poppins";
+    /* background-color: aquamarine; */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
-/* Tablets */
-@media (max-width: 1024px) {
-    .message {
-        width: 90%;
-    }
-
-    .message > h3 {
-        font-size: 60px;
-    }
-
-    .news_left, .news_right {
-        width: 100%;
-        padding: 40px;
-    }
-
-    .footer_nav {
-        width: 50%;
-    }
+.footer_right > h3 {
+    font-family: "Poppins";
+    width: 60%;
+    /* background-color: #b99d75; */
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-    #head_id {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .head > a {
-        margin: 10px;
-    }
-
-    .message > h3 {
-        font-size: 40px;
-    }
-
-    .message > h4 {
-        font-size: 16px;
-    }
-
-    .main {
-        padding: 30px;
-    }
-
-    .news_left, .news_right {
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .bottom {
-        font-size: 30px;
-    }
-
-    .footer_nav {
-        width: 100%;
-    }
-
-    .footer_terms {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .group {
-        flex-direction: column;
-    }
+.foot_logos {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
