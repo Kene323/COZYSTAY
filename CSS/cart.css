@@ -201,7 +201,7 @@ footer {
 .footer_left {
     width: 50%;
     height: 100%;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@ footer {
 }
 
 .foot_address {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     /* background-color: gold; */
     width: 40%;
     display: flex;
@@ -223,7 +223,7 @@ footer {
 }
 
 .foot_phone {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     /* background-color: gold; */
     width: 40%;
     display: flex;
@@ -232,7 +232,7 @@ footer {
 }
 
 .foot_email {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     /* background-color: gold; */
     width: 40%;
     display: flex;
@@ -243,7 +243,7 @@ footer {
 .footer_right {
     width: 50%;
     height: 100%;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
@@ -252,7 +252,7 @@ footer {
 }
 
 .footer_right > h3 {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     width: 60%;
     /* background-color: #b99d75; */
 }
